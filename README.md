@@ -52,7 +52,7 @@ Compile a development version of the plugin using:
       -DCLAP_BUILD_TESTS=true \
       -S ./sdk \
       -B ./build
-    cmake --build ./build --config Debug --target "clap-tests"
+    cmake --build ./build --config Release --target "clap-tests"
 
 
 ## Build (automatic)
